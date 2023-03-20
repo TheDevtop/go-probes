@@ -1,4 +1,4 @@
-# Probes
+# (Go) Probes
 
 These probes are here to _warn you_, to _do stuff_ for you, and to _nuke_ your program when necessary.
 
