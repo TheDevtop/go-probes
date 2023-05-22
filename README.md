@@ -1,6 +1,10 @@
 # (Go) Probes
 
-These probes are here to _warn you_, to _do stuff_ for you, and to _nuke_ your program when necessary.
+These probes are here to _inform_ you, to _do stuff_ for you, and to _nuke_ your program when necessary.
+
+```
+00:01:10 [Main] The answer to life the universe and everything: 42
+```
 
 ### Log Probe
 

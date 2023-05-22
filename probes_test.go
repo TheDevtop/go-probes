@@ -18,6 +18,8 @@ func Test_funcProbe_Probe(t *testing.T) {
 
 func Test_assertProbe_Probe(t *testing.T) {
 	x, y := 0, 0
-	p := NewAssertProbe("test", os.Stderr, IsFatal)
+	p := NewAssertProbe("test", os.Stderr, NotFatal)
 	p.Probe(x, y, AreEqual)
+
+	p.Probe(x, y+1, NotEqual)
 }
